@@ -1,0 +1,104 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/vendor/
+/node_modules/
+
+# Laravel specific
+/bootstrap/cache/
+/storage/*.key
+/public/storage
+/public/hot
+/public/build
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
+# IDE and editor files
+/.idea/
+/.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node #
+########
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Environment #
+###############
+/.env
+
+# Ignore Composer files #
+#########################
+/composer.phar
+/vendor/
+composer.lock
+
+# Ignore application files #
+############################
+/storage/
+!storage/.gitignore
+/public/storage
+/public/hot
+
+# Ignore sensitive data #
+#########################
+Homestead.yaml
+Homestead.json
+.env.local
+.env.testing
+.env.dusk.local
+.phpunit.result.cache
+
+# Ignore npm/yarn files #
+#########################
+/node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Custom additions #
+####################
+# Add any additional files/folders you wish to ignore.
+# Example:
+# /custom_folder/
